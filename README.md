@@ -5,7 +5,7 @@ Dataset source: Employee/HR Dataset (All in One) by Ravender Singh Rana (https:/
 This analysis project aims to uncover:
   1. Impact of training to employee performance
   2. Participation of different races in training program (DEI initiative)
-  3. Cost optimization opportunities across business units
+  3. Cost optimization opportunities for trainings across business units
 
 # Tools used
   1. MySQL - data cleaning and exploratory data analysis
@@ -36,7 +36,7 @@ General Analytics
 
 # Key insights
   1. Average employee ratings across business units slightly differ from each other, with PL having the highest average employee ratings. Surprisingly, PL spends less on employee trainings compared to SVG, which spends the most for employee trainings. 
-Speculation: Lower employee ratings of SVG unit despite having the highest spending on trainings could suggest a potential mismatch of training programs for employees, with training programs did not tailor to their area of improvement.
+Speculation: Lower employee ratings of SVG unit despite having the highest spending on trainings could suggest a potential mismatch of training programs for employees, with training programs did not tailor to their area of improvement. SVG unit has a high failure rate in Customer Service and Technical Skills trainings, but to be fair, Customer Service and Technical Skills trainings have one of the highest average failure rate across all units, hence training content would play a role here.
 
   2. That being said, the performance of employees who failed their trainings are mostly satisfactory, in which most of them fully meets their KPI, with SVG and NEL units have the highest percentage of employees who exceeds their targets.
 Speculation: Trainings provide mostly theoretical lessons compared to hands-on training. Employees in these units might thrive more through on-the-job tasks, mentorship or exposure to dynamic environments.
@@ -49,10 +49,19 @@ Speculation: Language barriers could exist during the training programs, and His
 
   5. Despite the disparity in training completion rates, the participation of training programs across racial groups are almost equal, with percentages ranging 19% to 20% across 5 racial groups in the company.
 
+# Recommendations
+
+Based on the key insights above, here are several recommendations to be considered by HR department to enhance training impact to employees:
+
+  1. To conduct quality audit on training content and delivery to ensure the training content is of high-quality, engaging and tailored to the needs of employees.
+  2. To reassess training assessments. Assessments should not be in closed environment, i.e., strictly exam environments and/or paper-based exams. Training assessment should be a continuous assessment, and to be assessed by respective supervisors based on guidelines provided by training coordinator and include in employee's KPI.
+  3. To investigate barriers that prevents a racial group from completing the assessment, such as language, accessibility or scheduling and redesign training format to be more inclusive by overcoming the barriers detected.
+  4. To study and promote best practices from high-performing business units i.e., PL unit, as they have spent less while achieving more on trainings.
+
 # Summary
 This project explores employee training data to uncover insights on performance impact, cost optimization, and diversity in participation. Using SQL and Power BI, I analyzed how training outcomes correlate with employee ratings and business unit performance. The dashboard highlights key areas such as underperforming employees in high-spending units, failed training losses by program, and racial participation gaps aligned with the company’s DEI initiatives. The goal is to provide data-driven recommendations to optimize training investments and ensure inclusive access across the organization.
 
-# Limitations and area of improvements
+# Limitations, challenges and area of improvements
 It should be noted that this is my first full-cycle data analysis project, showcasing my ability to extract, analyze, and visualize insights independently using SQL and Power BI. I'm working with a hypothetical data, which may not represent the exact same situation with real-world HR analytics. For the dataset, it is suggested to add a column for date last assessed for employee rating and performance, to fully reflect training effectiveness. Moving forward, I aim to:
   1. Work with real-world datasets to provide more accurate insights
   2. Incorporate predictive analytics to make more informed decisions based on historical data
