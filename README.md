@@ -1,6 +1,8 @@
 # Employee-s-Training-Data-Analysis
 This dataset is a simulation dataset for the purpose of practice and training for data science projects.
+
 "The Synthetic Employee Records Dataset is a simulated dataset created to explore various data analysis and machine learning techniques in the context of human resources and employee management. This synthetic dataset mirrors the structure and characteristics of real employee data, while all the information contained within is entirely fictional and generated for illustrative purposes."
+
 Dataset source: Employee/HR Dataset (All in One) by Ravender Singh Rana (https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset)
 
 # Objectives 
@@ -38,15 +40,19 @@ General Analytics
 
 # Key insights
   1. Average employee ratings across business units slightly differ from each other, with PL having the highest average employee ratings. Surprisingly, PL spends less on employee trainings compared to SVG, which spends the most for employee trainings. 
+
 Speculation: Lower employee ratings of SVG unit despite having the highest spending on trainings could suggest a potential mismatch of training programs for employees, with training programs did not tailor to their area of improvement. SVG unit has a high failure rate in Customer Service and Technical Skills trainings, but to be fair, Customer Service and Technical Skills trainings have one of the highest average failure rate across all units, hence training content would play a role here.
 
   2. That being said, the performance of employees who failed their trainings are mostly satisfactory, in which most of them fully meets their KPI, with SVG and NEL units have the highest percentage of employees who exceeds their targets.
+
 Speculation: Trainings provide mostly theoretical lessons compared to hands-on training. Employees in these units might thrive more through on-the-job tasks, mentorship or exposure to dynamic environments.
 
   3. In regards to losses from training failures, PL suffers the most from the losses, with losses incurred around $49.5k.
+
 Speculation: PL employees may perform well due to strong job experience and intrinsic capabilities, which helps them to deliver their tasks well and efficient, explaining their high ratings despite their training failures. It is also possible that their employees undergo advanced-level trainings due to their strong job experience, hence explains the higher failure rate.
 
   4. In line with company's DEI initiative, I have also analyzed the participation in the trainings across diverse racial groups. It is found that white employees has the highest rate of training completion, followed by 'Others' category. Hispanic employees have the lowest rate of training completion out of all racial groups.
+
 Speculation: Language barriers could exist during the training programs, and Hispanic employees may find some words and phrases used in training sessions are quite incomprehensible, not to mention the speech clarity and accent of the instructor. Besides, Hispanic employees may find training content not relevant to their background, hence reducing interest in the training program.
 
   5. Despite the disparity in training completion rates, the participation of training programs across racial groups are almost equal, with percentages ranging 19% to 20% across 5 racial groups in the company.
