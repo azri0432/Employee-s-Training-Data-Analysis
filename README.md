@@ -1,4 +1,6 @@
 # Employee-s-Training-Data-Analysis
+This dataset is a simulation dataset for the purpose of practice and training for data science projects.
+"The Synthetic Employee Records Dataset is a simulated dataset created to explore various data analysis and machine learning techniques in the context of human resources and employee management. This synthetic dataset mirrors the structure and characteristics of real employee data, while all the information contained within is entirely fictional and generated for illustrative purposes."
 Dataset source: Employee/HR Dataset (All in One) by Ravender Singh Rana (https://www.kaggle.com/datasets/ravindrasinghrana/employeedataset)
 
 # Objectives 
